@@ -7,7 +7,8 @@ Este proyecto utiliza Hadoop para realizar un conteo de palabras tokenizadas en 
 1. **Java** instalado.
 2. **Hadoop** configurado y en ejecución.
 3. Archivo `commons-csv-1.10.0.jar` en la carpeta `lib` del proyecto Java.
-4. Dataset de tweets a preprocesar.
+4. Dataset de tweets a preprocesar: [Tweets Dataset](https://www.kaggle.com/datasets/i191796majid/tweets).
+
 
 ## Algoritmos Previos
 
