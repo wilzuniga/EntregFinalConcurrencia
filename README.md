@@ -40,6 +40,9 @@ Después de ejecutar estos algoritmos, se generarán tres archivos de texto:
 2. Corre los siguientes comandos en la terminal:
 
    ```bash
+   start-dfs.sh
+   start-yarn.sh
+
    export HADOOP_CLASSPATH=$(hadoop classpath)
    echo $HADOOP_CLASSPATH
    javac -classpath $(hadoop classpath) -d classes/ NGramCount.java
