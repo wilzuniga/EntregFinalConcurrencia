@@ -1,4 +1,4 @@
-# Proyecto de WordCount Tokenizer con Hadoop
+# Proyecto de WordCount con Hadoop
 
 Este proyecto utiliza Hadoop para realizar un conteo de palabras tokenizadas en un dataset de tweets preprocesados. El flujo incluye dos algoritmos de preprocesamiento y una implementación en Hadoop para la tokenización y conteo.
 
