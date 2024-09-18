@@ -22,15 +22,15 @@ Antes de ejecutar el WordCount Tokenizer, se deben ejecutar los siguientes dos a
 
 Después de ejecutar estos algoritmos, se generarán tres archivos de texto:
 
-- `diccionario.txt`: Contiene el diccionario de palabras omitidas.
-- `tweets_sin_preprocesar.txt`: Tweets antes del preprocesamiento.
-- `tweets_preprocesados.txt`: Tweets después del preprocesamiento.
+- `diccionarioFiltrado.txt`: Contiene el diccionario de palabras omitidas.
+- `tweetsP.txt`: Tweets antes del preprocesamiento.
+- `resultadoProcesado.txt`: Tweets después del preprocesamiento.
 
 ## Pasos de Ejecución
 
 1. Iniciar sesión en el usuario donde está instalado Hadoop y asegurarse de que todos los servicios estén funcionando.
-2. Subir el archivo de `tweets_preprocesados.txt` a Linux si no se corrieron los algoritmos en el sistema.
-3. Insertar el archivo `tweets_preprocesados.txt` en el directorio de Hadoop: `/proyecto_concurrencia/input`.
+2. Subir el archivo de `resultadoProcesado.txt` a Linux si no se corrieron los algoritmos en el sistema.
+3. Insertar el archivo `resultadoProcesado.txt` en el directorio de Hadoop: `/proyecto_concurrencia/input`.
 4. Subir el archivo `NGramCount.java` al proyecto de Hadoop.
 
 ## Compilación y Ejecución del Tokenizer
