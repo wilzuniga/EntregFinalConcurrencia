@@ -12,7 +12,7 @@ Este proyecto utiliza Hadoop para realizar un conteo de palabras tokenizadas en 
 
 ## Algoritmos Previos
 
-Antes de ejecutar el WordCount Tokenizer, se deben ejecutar los siguientes dos algoritmos en Java:
+Antes de ejecutar el WordCount Tokenizer, se deben ejecutar los siguientes dos algoritmos en Java, recordemos que el dataset debe estar en la carpeta principal del proyecto:
 
 1. **Diccionario.java**: 
    - Crea un diccionario de palabras omitidas.
